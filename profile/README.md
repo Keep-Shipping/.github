@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://keepshipping.run"><b>site</b></a> ·
   <a href="https://keepshipping.run/#early-access">early access</a> ·
+  <a href="https://docs.keepshipping.run">docs</a> ·
   <a href="https://keepshipping.run/llms.txt">llms.txt</a>
 </p>
 
@@ -34,7 +35,7 @@ Agents can write, check and run it too; a policy in the same file decides what w
 | | What it is | Status |
 | :--- | :--- | :--- |
 | **Site** | [keepshipping.run](https://keepshipping.run): the idea, the workflow file, an honest comparison | **Live** |
-| **Early access** | Invites in small batches. One email when yours is ready | **Open** (by email for now) |
+| **Early access** | Invites in small batches. One email when yours is ready | **Open** |
 | **`check` and `run`** | The typed workflow engine and CLI | **In development** |
 | **Steps** | `oci.*`, `tofu.*` / `terraform.*`, `approval`, `k8s.rollout`, `vm.deploy`, `fn.deploy` | **In development** |
 | **Blocks, `decide` (Jev), policy for agents** | Shared versioned steps, typed risk decisions, agent scoping | **Planned** |
@@ -45,6 +46,7 @@ The workflow files and CLI output on the site show the design, not measurements.
 
 | Repo | What |
 | :--- | :--- |
+| [`harness`](https://github.com/Keep-Shipping/harness) | The engine, the `keepshipping` CLI, steps and docs. MIT |
 | [`website`](https://github.com/Keep-Shipping/website) | The landing site. Static HTML, one CSS, one JS, Cloudflare Pages |
 
 Questions, or a pipeline you'd like to throw at it: **contact@keepshipping.run**
